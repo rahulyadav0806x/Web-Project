@@ -1,0 +1,491 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f4f6f9;
+}
+
+/* HEADER AREA */
+
+.hero{
+background:#0a2540;
+color:white;
+padding:40px 20px;
+text-align:center;
+}
+
+.logo-row{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1100px;
+margin:auto;
+}
+
+.logo-row img{
+height:60px;
+}
+
+.logo-row h1{
+font-size:28px;
+margin:0;
+flex:1;
+text-align:center;
+}
+
+/* Conference logo */
+
+.conference-logo{
+margin-top:15px;
+}
+
+.conference-logo img{
+height:80px;
+}
+
+
+/* NAVIGATION BAR */
+
+nav{
+background:#1b1b1b;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a.active{
+color:#ffd700;
+border-bottom:3px solid #ffd700;
+}
+
+nav a:hover{
+color:#ffd700;
+}
+
+
+/* CONTENT SECTIONS */
+
+.container{
+width:92%;
+max-width:1000px;
+margin:0 auto;
+padding:25px;
+}
+
+.section{
+background:white;
+padding:25px;
+margin-bottom:20px;
+border-radius:8px;
+box-shadow:0px 3px 8px rgba(0,0,0,0.1);
+}
+
+.section h2{
+color:#0a2540;
+}
+
+
+/* FOOTER */
+
+footer{
+background:#0a2540;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+/* Highlight boxes */
+
+.section{
+background:white;
+padding:28px;
+margin-bottom:25px;
+border-radius:8px;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+line-height:1.7;
+text-align:left;
+}
+
+/* Important dates highlight */
+
+.section ul{
+background:#f8fbff;
+padding:20px;
+border-left:5px solid #0a2540;
+border-radius:6px;
+}
+
+/* Best paper award highlight */
+
+.section{
+background:white;
+border-radius:6px;
+padding:20px;
+margin-bottom:20px;
+}
+
+/* Section titles */
+
+.section h2{
+color:#0a2540;
+margin-top:0;
+margin-bottom:12px;
+font-size:22px;
+font-weight:700;
+}
+
+/* Announcement Banner */
+
+.announcement{
+background:#0f4c81;
+color:white;
+text-align:center;
+padding:8px;
+font-weight:600;
+font-size:14px;
+letter-spacing:0.3px;
+}
+
+.section ul{
+line-height:1.8;
+padding-left:20px;
+margin-top:10px;
+}
+
+.paybtn{
+display:inline-block;
+background:#0a2540;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+font-weight:bold;
+border-radius:6px;
+margin-top:10px;
+}
+
+.paybtn:hover{
+background:#ffd700;
+color:black;
+}
+
+/* Background conference section */
+
+.event-section{
+background-image:url("images/campus-bg.png");
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+height:500px;
+position:relative;
+}
+
+.event-overlay{
+background:rgba(0,0,0,0.65);
+height:100%;
+display:flex;
+align-items:center;
+}
+
+.event-content{
+color:white;
+max-width:900px;
+margin:auto;
+padding:40px;
+text-align:left;
+}
+
+.event-content h2{
+font-size:36px;
+margin-bottom:15px;
+}
+
+.event-content p{
+font-size:18px;
+line-height:1.6;
+}
+
+.section:hover{
+transform:translateY(-3px);
+transition:0.2s;
+}
+
+/* Countdown */
+
+ 	
+
+#countdown{
+font-size:28px;
+font-weight:bold;
+color:#0f4c81;
+margin-top:10px;
+}
+
+/* HEADER LAYOUT */
+
+.conference-header{
+background:#123b5c;
+color:white;
+padding:20px 0;
+text-align:center;
+}
+
+.top-logo{
+margin-bottom:10px;
+}
+
+.top-logo img{
+height:70px;
+}
+
+.header-main{
+display:flex;
+align-items:center;
+justify-content:space-between;
+max-width:1100px;
+margin:auto;
+padding:10px 20px;
+gap:20px;
+}
+
+.left-logo img{
+height:45px;
+}
+
+.right-logo img{
+height:45px;
+}
+
+.conference-title{
+flex:1;
+text-align:center;
+}
+
+.conference-title h1{
+font-size:28px;
+margin:10px 0;
+}
+
+.conference-title p{
+margin:3px 0;
+}
+.top-logo img{
+height:70px;
+margin-bottom:10px;
+}
+
+.header-main{
+display:flex;
+align-items:center;
+justify-content:space-between;
+max-width:1200px;
+margin:auto;
+}
+
+.left-logo img,
+.right-logo img{
+height:60px;
+display:block;
+margin:auto;
+}
+
+.conference-title{
+flex:1;
+padding:0 20px;
+}
+
+.conference-title h1{
+font-size:26px;
+margin-bottom:10px;
+}
+
+/* BEST PAPER AWARD BANNER (PROFESSIONAL STYLE) */
+
+/* BEST PAPER AWARD TICKER */
+
+/* Award Banner */
+
+.award-banner{
+width:60%;
+margin:20px auto;
+overflow:hidden;
+background:#e8f1fb;
+border-left:6px solid #0f4c81;
+border-radius:6px;
+}
+
+.award-track{
+padding-right:80px;
+display:flex;
+width:max-content;
+animation:scrollAwards 10s linear infinite;
+}
+
+.award-track span{
+padding:14px 60px;
+font-size:20px;
+font-weight:600;
+color:#0f4c81;
+white-space:nowrap;
+}
+
+@keyframes scrollAwards{
+0%{
+transform:translateX(0);
+}
+
+100%{
+transform:translateX(-50%);
+}
+}
+
+
+.countdown-section{
+background:white;
+border-radius:8px;
+box-shadow:0 4px 12px rgba(0,0,0,0.12);
+padding:25px;
+margin:30px auto;
+width:70%;
+text-align:center;
+}
+
+#countdown{
+font-size:28px;
+font-weight:bold;
+color:#0f4c81;
+margin-top:10px;
+}
+
+/* MOBILE RESPONSIVE FIX */
+
+@media (max-width:768px){
+
+.header-main{
+flex-direction:column;
+text-align:center;
+}
+
+.left-logo img,
+.right-logo img{
+height:50px;
+margin:10px 0;
+}
+
+.conference-title h1{
+font-size:20px;
+}
+
+.countdown-section{
+width:95%;
+}
+
+.award-banner{
+width:95%;
+font-size:18px;
+}
+
+nav a{
+display:inline-block;
+margin:6px;
+font-size:14px;
+}
+
+}
+
+/* Paragraph alignment like Word document */
+
+.section p{
+font-size:18px;
+line-height:1.7;
+text-align:justify;
+}
+
+
+/* Professional bullet list formatting */
+
+.section ul{
+text-align:left;
+line-height:1.8;
+margin-left:35px;
+padding-left:10px;
+}
+
+
+/* Bullet spacing */
+
+.section li{
+margin-bottom:6px;
+font-size:17px;
+}
+
+
+
+
+
+.conference-title-main{
+text-align:center;
+font-size:28px;
+line-height:1.4;
+margin:10px 0;
+font-weight:600;
+}
+.conference-title{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}
+
+
+
+.table-note{
+font-size:14px;
+margin-top:8px;
+font-style:italic;
+color:#555;
+}
+
+
+
+.section ul{
+background:#f8fbff;
+padding:20px 20px 20px 35px;
+border-left:5px solid #0a2540;
+border-radius:6px;
+list-style-type: disc;
+}
+
+.section ul li{
+margin-bottom:8px;
+}
+
+
+
+.registration-table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+}
+
+.registration-table th,
+.registration-table td{
+border:1px solid #999;
+padding:10px;
+text-align:left;
+}
+
+.registration-table th{
+background:#f2f2f2;
+font-weight:bold;
+}
+
+
+
+
+
+

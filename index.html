@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>ISAC 2026 Conference</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<header class="conference-header">
+
+<div class="top-logo">
+<img src="images/presidency-logo.png" alt="Presidency University Logo">
+</div>
+
+<div class="header-main">
+
+<div class="left-logo">
+<img src="images/springer-logo.png" alt="Springer Logo">
+</div>
+
+<div class="conference-title">
+<h1>
+First International Conference on Intelligent Systems<br>
+ and Ambient Communication<br>
+(ISAC 2026)
+</h1>
+<p>29 – 30 October 2026</p>
+<p>Presidency University, Bengaluru</p>
+</div>
+
+<div class="right-logo">
+<img src="images/isac-logo.jpeg" alt="ISAC Logo">
+</div>
+
+</div>
+
+</header>
+
+<nav>
+
+<a href="index.html" class="active">Home</a>
+
+<a href="about.html">About</a>
+
+<a href="tracks.html">Tracks</a>
+
+<a href="submission.html">Submission</a>
+
+<a href="registration.html">Registration</a>
+
+<a href="committee.html">Committee</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<div class="announcement">
+
+📢 <strong>Paper Submission Deadline: July 1, 2026</strong> |  
+Acceptance Notification: September 1, 2026 |  
+Conference Dates: October 29 – 30, 2026
+
+<div class="section countdown-section">
+
+<h2>Submission Deadline Countdown</h2>
+
+
+<div id="countdown"></div>
+
+<div class="award-banner">
+  <div class="award-track">
+    <span>🏆 Best Paper Awards: ₹5,000 Cash Prize for each track</span>
+    <span>🏆 Best Paper Awards: ₹5,000 Cash Prize for each track</span>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+<section class="event-section">
+
+<div class="event-overlay">
+
+<div class="event-content">
+
+<h2>About The Conference</h2>
+
+<p>
+International Conference on Intelligent Systems and Ambient Communication (ISAC 2026) aims to serve as a premier platform for researchers—particularly students, postgraduate scholars, PhD researchers, industry professionals, and postdoctoral scientists—to present and exchange the latest findings and innovations in fields such as Computer Science and Engineering, Information Science and Engineering, Electronics and Communication Engineering, Robotics and Automation.
+</p>
+
+<p>
+The conference will feature high-quality paper presentations and insightful keynote addresses by distinguished experts, highlighting cutting-edge advancements and state-of-the-art technologies relevant to the conference themes. Special emphasis will be placed on interdisciplinary research, addressing the growing importance and challenges it presents to the global research and academic community.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="container">
+
+
+
+<div class="section">
+
+<h2>Important Dates</h2>
+
+<ul>
+
+<li>Call for Papers: March 30, 2026</li>
+
+<li>Submission Deadline: July 1, 2026</li>
+
+<li>Acceptance Notification: September 1, 2026</li>
+
+<li>Early Bird Registration: September 1 – September 15, 2026</li>
+
+<li>Camera Ready Paper: September 20, 2026</li>
+
+<li>Conference Dates: October 29 – 30, 2026</li>
+
+</ul>
+
+</div>
+
+
+
+<div class="section">
+
+<h2>Conference Tracks</h2>
+
+<ul>
+
+<li>Artificial Intelligence and Machine Learning</li>
+
+<li>Robotics and Automation</li>
+
+<li>Technology Trends and Emerging Technologies</li>
+
+<li>Business Intelligence</li>
+
+<li>Cyber Secure Systems</li>
+
+<li>Communication Systems</li>
+
+</ul>
+
+</div>
+
+
+
+<div class="section">
+
+<h2>Best Paper Award</h2>
+
+<p>
+
+₹5,000 Cash Prize for each track
+
+</p>
+
+</div>
+
+
+
+</div>
+
+
+
+<footer>
+<p>ISAC 2026 | Presidency University Bangalore</p>
+
+<p>
+The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses including costs for Azure cloud services as well as for software development and support.
+</p>
+</footer>
+
+<script>
+
+var deadline = new Date("July 1, 2026 23:59:59").getTime();
+
+var x = setInterval(function(){
+
+var now = new Date().getTime();
+
+var distance = deadline - now;
+
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+document.getElementById("countdown").innerHTML =
+days + " Days  " + hours + " Hours  "
++ minutes + " Minutes  " + seconds + " Seconds ";
+
+if (distance < 0) {
+
+clearInterval(x);
+
+document.getElementById("countdown").innerHTML = "Submission Closed";
+
+}
+
+},1000);
+
+</script>
+
+</body>
+
+</html>
