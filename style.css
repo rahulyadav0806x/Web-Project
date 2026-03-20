@@ -180,7 +180,8 @@ background-image:url("images/campus-bg.png");
 background-size:cover;
 background-position:center;
 background-attachment:fixed;
-height:500px;
+min-height:500px;
+padding:40px 0;
 position:relative;
 }
 
@@ -369,6 +370,11 @@ margin-top:10px;
 flex-direction:column;
 text-align:center;
 }
+
+.event-section{
+    background-attachment:scroll;
+}
+
 
 .left-logo img,
 .right-logo img{
